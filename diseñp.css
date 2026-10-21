@@ -50,8 +50,8 @@ h1{
 .img{
     width: 50%;
     height: 20px;
-    margin-left: 50px; 
-    
+    margin-left: 150px; 
+    margin-bottom: 150px;
 
     
 }
@@ -60,3 +60,6 @@ h1{
     display: none;
 }
 
+.div{
+    background-image: url('img/imagen1.jpg');
+}
