@@ -1,5 +1,5 @@
 body{
-    background-color: #01497C;
+    background-color: #01497C ; 
     margin: 0;
     padding: 0;
 
@@ -8,7 +8,7 @@ h1{
     color: #F9F7F7;
     text-align: center;
 }
-.nom1{
+.anderson1{
     background:linear-gradient(to right, #61A5C2, #014F86);
     width: 100%;
     margin: auto;
