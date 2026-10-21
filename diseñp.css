@@ -29,4 +29,8 @@ h1{
 
 
 }
-
+.img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
