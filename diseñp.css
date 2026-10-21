@@ -32,9 +32,10 @@ h1{
     
 }
 .visible{
+    display: flex;
     color: #ffffff;
     background-color: #2C7DA0;
-    font-size: 5px;
+    font-size: 25px;
     text-align: left;
     font-family: Arial, sans-serif;
     padding: 20px;
