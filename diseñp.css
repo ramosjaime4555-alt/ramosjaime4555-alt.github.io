@@ -9,7 +9,7 @@ h1{
     text-align: center;
 }
 .anderson1{
-    background-color: #61A5C2;
+    background:linear-gradient(to right, #61A5C2, #2C7DA0);
     width: 50%;
     margin: auto;
     padding: 20px;
@@ -24,6 +24,6 @@ h1{
 .pri1{
     color: #F9F7F7;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
