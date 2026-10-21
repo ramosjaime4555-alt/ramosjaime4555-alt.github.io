@@ -1,9 +1,5 @@
 body{
-<<<<<<< HEAD
     background-color: #01497C ; 
-=======
-    background-color: #A9D6E5 !important;
->>>>>>> 4c3a1615ad572521d1cf44faea838b9a4ca350a5
     margin: 0;
     padding: 0;
 
@@ -58,5 +54,9 @@ h1{
     
 
     
+}
+
+.oculto{
+    display: none;
 }
 
