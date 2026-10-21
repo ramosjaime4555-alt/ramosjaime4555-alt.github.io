@@ -1,10 +1,13 @@
+//funcion de mostrar y ocultar divs
 function mostrar(id) {
    document.getElementById('div1').className = 'oculto';
    document.getElementById('div2').className = 'oculto';
    document.getElementById(id).className = 'visible';
 }
+//variable para guardar el usuario y contraseña
 let usuarioGuardado = "";
 let contraGuardada = "";
+//funcion para registrar usuario y contraseña
 function registrar() {
     let usuarioInput = document.getElementById("USUARIO").value;
     let contraInput = document.getElementById("contra").value;
