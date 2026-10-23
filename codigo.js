@@ -37,8 +37,8 @@ function InicioSesion(){
     if (UsuarioInicio !== usuarioGuardado){
         alert("Usuario incorrecto");
     }else if (contraInicio !== contraGuardada){
-        alert("Contraseña incorrecta")
+        alert("Contraseña incorrecta");
     }else {
-        alert("Datos correctos ingresando.....")
+        alert("Datos correctos ingresando.....");
     }
 }
