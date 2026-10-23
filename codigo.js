@@ -2,6 +2,7 @@
 function mostrar(id) {
    document.getElementById('div1').className = 'oculto';
    document.getElementById('div2').className = 'oculto';
+   document.getElementById('div3').className = 'oculto';
    document.getElementById(id).className = 'visible';
 }
 //variable para guardar el usuario y contraseña
@@ -23,7 +24,21 @@ function registrar() {
         alert("Usuario registrado correctamente");
         usuarioGuardado = usuarioInput;
         contraGuardada = contraInput;
+        return;
        
     }
 
+}
+
+function InicioSesion(){
+    let UsuarioInicio = document.getElementById('UsuarioInicio').value;
+    let contraInicio = document.getElementById('contraUsuario').value;
+
+    if (UsuarioInicio !== usuarioGuardado){
+        alert("Usuario incorrecto");
+    }else if (contraInicio !== contraGuardada){
+        alert("Contraseña incorrecta")
+    }else {
+        alert("Datos correctos ingresando.....")
+    }
 }
