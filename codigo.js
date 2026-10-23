@@ -36,7 +36,10 @@ function InicioSesion(){
 
     if (UsuarioInicio !== usuarioGuardado || contraInicio !== contraGuardada){
         alert("Contraseña o Usuario incorrecto");
-    }else {
+    } else if (UsuarioInicio === "" || contraInicio ===""){
+        alert("Uno o mas campos vacios")
+    }
+    else {
         alert("Datos correctos ingresando.....");
     }
 }
