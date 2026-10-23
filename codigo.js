@@ -16,20 +16,20 @@ function registrar() {
 
     if (usuarioInput === "" || contraInput === "" || confirmaContraInput === "") {
         alert("Uno o dos mas campos estan vacios");
-        return;
+        
     } else if (contraInput !== confirmaContraInput) {
         alert("Las contraseñas no coinciden");
-        return;
+        
     } else{
         alert("Usuario registrado correctamente");
         usuarioGuardado = usuarioInput;
         contraGuardada = contraInput;
-        return;
+        
        
     }
 
 }
-
+//funcion para ingresar a la pagina
 function InicioSesion(){
     let UsuarioInicio = document.getElementById('UsuarioInicio').value;
     let contraInicio = document.getElementById('contraInicio').value;
