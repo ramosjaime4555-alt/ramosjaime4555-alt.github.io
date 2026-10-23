@@ -34,10 +34,8 @@ function InicioSesion(){
     let UsuarioInicio = document.getElementById('UsuarioInicio').value;
     let contraInicio = document.getElementById('contraInicio').value;
 
-    if (UsuarioInicio !== usuarioGuardado){
-        alert("Usuario incorrecto");
-    }else if (contraInicio !== contraGuardada){
-        alert("Contraseña incorrecta");
+    if (UsuarioInicio !== usuarioGuardado || contraInicio !== contraGuardada){
+        alert("Contraseña o Usuario incorrecto");
     }else {
         alert("Datos correctos ingresando.....");
     }
