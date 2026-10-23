@@ -1,55 +1,44 @@
 //funcion de mostrar y ocultar divs
 function mostrar(id) {
-    document.getElementById('div1').className = 'oculto';
-    document.getElementById('div2').className = 'oculto';
-    document.getElementById('div3').className = 'oculto';
-    document.getElementById(id).className = 'visible';
+   document.getElementById('div1').className = 'oculto';
+   document.getElementById('div2').className = 'oculto';
+   document.getElementById('div3').className = 'oculto';
+   document.getElementById(id).className = 'visible';
 }
-
-// Variables globales para guardar el usuario y contraseña en memoria
+//variable para guardar el usuario y contraseña
 let usuarioGuardado = "";
 let contraGuardada = "";
-
-// Función para registrar usuario y contraseña
+//funcion para registrar usuario y contraseña
 function registrar() {
     let usuarioInput = document.getElementById("USUARIO").value;
     let contraInput = document.getElementById("contra").value;
     let confirmaContraInput = document.getElementById("confirmacontra").value;
 
     if (usuarioInput === "" || contraInput === "" || confirmaContraInput === "") {
-        alert("Uno o más campos están vacíos");
+        alert("Uno o dos mas campos estan vacios");
         return;
-    }
-
-    if (contraInput !== confirmaContraInput) {
+    } else if (contraInput !== confirmaContraInput) {
         alert("Las contraseñas no coinciden");
         return;
+    } else{
+        alert("Usuario registrado correctamente");
+        usuarioGuardado = usuarioInput;
+        contraGuardada = contraInput;
+        return;
+       
     }
 
-    // Guardamos los datos en las variables globales
-    usuarioGuardado = usuarioInput;
-    contraGuardada = contraInput;
-
-    alert("Usuario registrado correctamente");
 }
 
-// Función para iniciar sesión
-function InicioSesion() {
+function InicioSesion(){
     let UsuarioInicio = document.getElementById('UsuarioInicio').value;
-    let contraInicio = document.getElementById('contraUsuario').value;
+    let contraInicio = document.getElementById('contraInicio').value;
 
-    // Validamos por seguridad si ya se registró un usuario antes
-    if (usuarioGuardado === "") {
-        alert("Primero debes registrarte.");
-        return;
-    }
-
-    if (UsuarioInicio !== usuarioGuardado) {
+    if (UsuarioInicio !== usuarioGuardado){
         alert("Usuario incorrecto");
-    } else if (contraInicio !== contraGuardada) {
+    }else if (contraInicio !== contraGuardada){
         alert("Contraseña incorrecta");
-    } else {
-        alert("Datos correctos, ingresando.....");
-        // Aquí puedes poner el código para ocultar el div de login y mostrar tu contenido
+    }else {
+        alert("Datos correctos ingresando.....");
     }
 }
