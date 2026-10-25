@@ -166,3 +166,107 @@ a{
     text-decoration: none;
     color: #F9F7F7;
 }
+
+.card {
+    margin: 20px auto;
+    max-width: 850px;
+    padding: 25px; /* Más espacio interno para que el texto 'respire' */
+    background: linear-gradient(135deg, #2C7DA0, #014F86);
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(1, 79, 134, 0.25);
+    -webkit-text-fill-color: #FFFFFF;
+    font-family: sans-serif;
+    line-height: 1.6; /* Separa las líneas de texto para una lectura más cómoda */
+}
+
+.titulo1 {
+    color: #0b4f6c;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    letter-spacing: 2px;       /* Espacio entre letras */
+    margin: 30px 0 15px 0;
+}
+
+
+/* Estilo para las tarjetas (actualizado con separación entre ellas) */
+.card {
+  margin: 15px auto; /* Centra la tarjeta y da 15px de separación vertical entre cada una */
+  max-width: 850px;
+  padding: 18px 25px;
+  background: linear-gradient(135deg, #2C7DA0, #014F86);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(1, 79, 134, 0.25);
+  color: #FFFFFF;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Contenedor de las 4 columnas en línea */
+.contenedor-cuatro {
+    display: flex;
+    justify-content: space-between; /*distribuir los elementos de manera horizontal dejando espacio únicamente entre ellos.*/
+    gap: 12px;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+/* Estilo para cada una de las 4 cajas */
+.caja-mini {
+    flex: 1;
+    background: linear-gradient(135deg, #2C7DA0, #014F86);
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    border-radius: 12px;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    box-shadow: 0 4px 10px rgba(1, 79, 134, 0.2);
+}
+
+.caja-mini h3 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+}
+
+.caja-mini h4 {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.caja-mini p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+/* Tarjeta ancha destacada para el enfoque */
+.card-enfoque {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 22px 25px;
+    background: linear-gradient(135deg, #014F86, #083b52); /* Azul más profundo para contrastar */
+    border-left: 6px solid #2C7DA0; /* Barra acentuada a la izquierda */
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.18);
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.card-enfoque h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.card-enfoque p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
