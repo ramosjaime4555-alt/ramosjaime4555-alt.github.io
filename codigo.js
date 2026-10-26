@@ -43,3 +43,26 @@ function InicioSesion(){
         alert("Datos correctos ingresando.....");
     }
 }
+
+
+const elemento = document.getElementById('mielemento');
+const contenedorOriginal = document.getElementById('contenedor-original');
+
+const mediaQuery = window.matchMedia('(max-width: 490px)');
+
+function manejarResponsive(e) {
+    if (e.matches) {
+        document.body.appendChild(elemento);
+        
+        elemento.classList.add('fuera-del-contenedor');
+
+    } else{
+        contenedorOriginal.appendChild(elemento);
+
+        elemento.classList.remove('fuera-del-contenedor');
+    }
+}
+
+mediaQuery.addEventListener('change', manejarResponsive);
+
+manejarResponsive(mediaQuery);  
