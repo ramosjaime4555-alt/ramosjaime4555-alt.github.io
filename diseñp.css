@@ -15,6 +15,7 @@ h1{
     padding: 20px;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
     
 }
 .logo{
@@ -274,18 +275,35 @@ a{
 #carouselExample{
     margin-left: 100px;
 }
-@media(max-width: 490px){
-    .contenedor{
-        display: block;
+@media (max-width: 490px) {
+    .anderson1 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
     }
-    .contenedor-cuatro{
-        display: block;
+
+    .pri1 {
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
     }
-    .img{
-        display: none;
+
+    .contenedor-cuatro {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 15px;
     }
-    #carouselExample{
-        width: 920px;
-        height: 920px;
+
+    .card,
+    .card-enfoque {
+        width: 90%;
+        box-sizing: border-box;
+    }
+    #div1{
+        margin-left: 80px;
+    }
+    #mielemento{
+        margin-left: -100px;
     }
 }
