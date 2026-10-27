@@ -41,5 +41,6 @@ function InicioSesion() {
     }
     else {
         alert("Datos correctos ingresando.....");
+        window.location.href = "index2.html";     
     }
 }
