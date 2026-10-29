@@ -10,9 +10,22 @@
 </head>
 
 <body>
+    <br><br><br><br><br><br>
     <div class="visible" id="div1">
-        <a href="#" onclick="mostrar('div2')">Registrar</a>
-        <a href="#" onclick="mostrar('div3')">Iniciar Sesion</a>
+        <div class="fondo">
+            <div class="titulo-de-empresa">
+                <img src="img/Gemini_Generated_Image_6q6sed6q6sed6q6s.jfif" alt="" width="50%" height="50%">
+                <p class="parrafo1">¡Bienvenido a Hidraenergi!</p>
+            </div>
+            <div class="carta1">
+                <button onclick="mostrar('div2')">Registrar</button>
+            </div>
+            <div class="carta2">
+                <button onclick="mostrar('div3')">Iniciar Sesion</button>
+            </div>
+        </div>
+
+
     </div>
     <div class="oculto" id="div2">
         <p>PON TU USUARIO</p>
@@ -22,7 +35,7 @@
         <p>CONFIRMA TU CONTRASEÑA</p>
         <input type="password" id="confirmacontra">
         <button onclick="mostrar('div3')">Iniciar Sesion</button>
-        <button onclick="registrar()">Registrar</button>
+        <button onclick="registrar()">Registrarme</button>
     </div>
 
     <div class="oculto" id="div3">
@@ -30,7 +43,7 @@
         <input type="text" id="UsuarioInicio">
         <p>PON TU CONTRASEÑA</p>
         <input type="password" id="contraInicio">
-        <a href="#" onclick="mostrar('div2')">Registrar</a>
+        <button onclick="mostrar('div2')">Registrar</button>
         <button onclick="InicioSesion()">Ingresar</button>
     </div>
 

@@ -1,28 +1,99 @@
-#div1.visible {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 190px;
-    height: 67px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    background: linear-gradient(135deg, #2C7DA0, #014F86);
-    border: 2px solid rgba(255, 255, 255, 0.35);
-    border-radius: 16px;
-    box-shadow: 0 6px 15px rgba(1, 79, 134, 0.25);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+body {
+    background: linear-gradient(to right, #61A5C2, #014F86);
 }
 
-#div1.visible a {
+
+.carta1 a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 23px;
     font-weight: bold;
 }
 
-#div1.visible:hover {
+.carta2 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.carta2 :hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 22px rgba(1, 79, 134, 0.35);
+}
+
+.carta1 :hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(1, 79, 134, 0.35);
+}
+.fondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    width: min(90%, 420px);
+    margin: 35px auto;
+    padding: 10px;
+
+    box-sizing: border-box;
+    background: linear-gradient(145deg, #FFFFFF, #EAF6FA);
+    border: 1px solid #A9D6E5;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(1, 79, 134, 0.18);
+
+    color: #014F86;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-de-empresa{
+    display: flex;
+    align-items: center;
+    margin-left: -2%;
+    font-size: x-large;
+}
+
+.parrafo1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carta1,
+.carta2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    width: min(90%, 420px);
+    margin: 35px auto;
+    padding: 30px;
+
+    box-sizing: border-box;
+    background: linear-gradient(145deg, #FFFFFF, #EAF6FA);
+    border: 1px solid #A9D6E5;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(1, 79, 134, 0.18);
+
+    color: #014F86;
+    font-family: Arial, sans-serif;
+}
+
+.carta1 button,
+.carta2 button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: linear-gradient(135deg, #2C7DA0, #014F86);
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: transform 0.2s, background 0.2s;
 }
 
 /* Formularios de registro e inicio de sesión */
