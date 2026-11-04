@@ -29,7 +29,7 @@ function registrar() {
     }
 
 }
-//funcion para ingresar a la pagina
+//funcion para ingresar a la pagina.
 function InicioSesion() {
     let UsuarioInicio = document.getElementById('UsuarioInicio').value;
     let contraInicio = document.getElementById('contraInicio').value;
