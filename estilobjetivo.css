@@ -40,6 +40,7 @@ body{
 }
 
 .objetivo1, .objetivo2, .objetivo3 {
+    position: relative;
     background: linear-gradient(to right, #61A5C2, #014F86);
     color: #F9F7F7;
     width: 100%;
@@ -116,4 +117,13 @@ body{
     margin-top: 25px;
     padding-top: 10px;
     border-top: 1px solid #F9F7F7;
+}
+.objetivo1-img, .objetivo2-img, .objetivo3-img {
+    position: absolute;
+    top: 10px;
+    left: 550px;
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
 }
