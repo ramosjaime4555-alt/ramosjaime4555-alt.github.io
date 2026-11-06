@@ -124,3 +124,119 @@ body{
     padding-top: 10px;
     border-top: 1px solid #F9F7F7;
 }
+
+@media screen and (max-width: 490px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* TÍTULO */
+    .titulo1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin: 20px 10px 15px;
+    }
+
+    /* CONTENEDOR */
+    .conoce-contenedor {
+        padding: 0 15px;
+        gap: 15px;
+        margin-bottom: 25px;
+        box-sizing: border-box;
+    }
+
+    /* TARJETAS */
+    .conoce-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .conoce-card h2 {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+
+    .conoce-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .conoce-card ul {
+        padding-left: 20px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* HISTORIA */
+    .historia-card {
+        width: calc(100% - 30px);
+        max-width: 100%;
+        margin: 0 auto 25px;
+        padding: 15px;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .historia-card p {
+        width: 100%;
+        min-width: 0;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .historia-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    /* FOOTER */
+    .footer1 {
+        padding: 20px 15px 10px;
+        margin-top: 25px;
+        border-radius: 0;
+        box-sizing: border-box;
+    }
+
+    .footer-contenido {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-col {
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-col h3 {
+        font-size: 17px;
+    }
+
+    .footer-col p,
+    .footer-col a {
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+
+    .footer-logo {
+        width: 100px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer-copy {
+        font-size: 11px;
+        margin-top: 20px;
+    }
+}
