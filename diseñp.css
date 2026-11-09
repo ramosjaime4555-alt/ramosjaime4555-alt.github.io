@@ -280,3 +280,27 @@ a{
     padding-top: 10px;
     border-top: 1px solid #F9F7F7;
 }
+
+.nav-item:hover{
+    background-color: #3d84a3;
+    color: #F9F7F7;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-item:hover a{
+    color: #F9F7F7 !important;
+}
+
+.container-fluid{
+    background: linear-gradient(to right, #61A5C2, #014F86);
+    padding: 10px 0;
+    margin-bottom: -20px;
+     
+}
+
+.navbar-brand:hover{
+    background-color:#3d84a3;
+    color: #F9F7F7 !important;
+    border-radius: 7px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
