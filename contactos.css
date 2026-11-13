@@ -1,0 +1,16 @@
+body {
+    background-color: #A9D6E5 !important;
+    margin: 0;
+    padding: 0;
+
+}
+    
+.nav-item:hover{
+    background-color: #3d84a3;
+    color: #F9F7F7;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-item:hover a{
+    color: #F9F7F7 !important;
+}
