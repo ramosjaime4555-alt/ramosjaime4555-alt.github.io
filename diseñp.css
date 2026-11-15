@@ -198,7 +198,7 @@ a{
 .proyectos{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* se aplian solas en responsive*/
+    flex-wrap: wrap; /* se apilan solas en responsive*/
     gap: 20px;
     padding: 0 20px;
     margin-bottom: 40px;
