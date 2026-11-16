@@ -29,7 +29,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     max-width: 1500px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 40px auto; /* definir los márgenes de un elemento (arriba, derecha, abajo, izquierda)*/
     padding: 0 20px;
 }
 .producto-card{
@@ -105,12 +105,12 @@ body {
 }
 .footer-col{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* acomoda sus elementos para que esten alineados */
     gap: 8px;
     max-width: 250px;
 }
 .footer-col h3{
-    margin: 0 0 5px 0;
+    margin: 5px;
     font-size: 18px;
 }
 .footer-col p{
