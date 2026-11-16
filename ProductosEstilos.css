@@ -48,3 +48,13 @@ body {
 .producto-card:hover{
     transform: translateY(-5px);
 }
+.titulo1 {
+    color: #0b4f6c;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    /* Convierte el texto a mayúsculas */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    margin: 30px 0 15px 0;
+}
