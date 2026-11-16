@@ -1,0 +1,143 @@
+/* Edicion de navbar*/
+.nav-item:hover{
+    background-color: #3d84a3;
+    color: #F9F7F7;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-item:hover a{
+    color: #F9F7F7 !important;
+}
+
+.container-fluid{
+    background: linear-gradient(to right, #61A5C2, #014F86);
+    height: 60px;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    
+     
+}
+
+.navbar-brand:hover{
+    background-color:#3d84a3;
+    color: #F9F7F7 !important;
+    border-radius: 7px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+body {
+    background-color: #A9D6E5 !important;
+    margin: 0;
+    padding: 0;
+
+}
+.titulo1 {
+    color: #0b4f6c;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    /* Convierte el texto a mayúsculas */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    margin: 30px 0 15px 0;
+}
+
+/* Introducción */
+.intro-estrategia{
+    background: linear-gradient(to right, #61A5C2, #014F86);
+    color: #F9F7F7;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+.intro-estrategia p{
+    margin: 0;
+}
+
+/* Cajas de estrategias */
+.estrategias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* aplica solas para responsive*/
+    gap: 20px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+.estrategia-card{
+    background: linear-gradient(to right, #61A5C2, #014F86);
+    color: #F9F7F7;
+    width: 45%;
+    min-width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s; /* transicion que dura 0.3 segundos*/
+}
+.estrategia-card:hover{
+    transform: translateY(-5px); /*Mueve la caja 5 píxeles hacia arriba sin afectar a los demás elementos de la página.*/
+}
+.estrategia-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* todas las imagenes son del mismo tamaño*/
+    border-radius: 10px;
+    border: 3px solid #F9F7F7;
+}
+.etiqueta{
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    opacity: 0.8; /* la opacidad del texto disminuye*/
+}
+.estrategia-card h2{
+    margin: 5px 0 8px 0;
+    font-size: 22px;
+}
+.estrategia-card p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.estrategia-card .etiqueta{
+    font-size: 13px;
+}
+
+/* Pasos */
+.pasos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+.paso-card{
+    background: linear-gradient(to right, #61A5C2, #014F86);
+    color: #F9F7F7;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.paso-card i{
+    font-size: 40px;
+}
+.paso-card h3{
+    margin: 10px 0 5px 0;
+    font-size: 20px;
+}
+.paso-card p{
+    margin: 0;
+    font-size: 14px;
+}
