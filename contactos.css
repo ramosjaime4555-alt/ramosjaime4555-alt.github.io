@@ -2,76 +2,88 @@ body {
     background-color: #A9D6E5 !important;
     margin: 0;
     padding: 0;
-
 }
 
-.nav-item:hover{
-    background-color: #3d84a3;
-    color: #F9F7F7;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-.nav-item:hover a{
-    color: #F9F7F7 !important;
-}
-
-.container-fluid{
+/* El degradado va en .navbar y sin altura fija para que crezca en móvil */
+.navbar {
     background: linear-gradient(to right, #61A5C2, #014F86);
-    height: 60px;
-    margin-bottom: -20px;
-    margin-top: -10px;
-    
-     
+    min-height: 60px;
+    padding: 8px 15px;
 }
 
-.navbar-brand:hover{
-    background-color:#3d84a3;
+.navbar-brand,
+.nav-link {
     color: #F9F7F7 !important;
-    border-radius: 7px;
+    padding: 8px 12px !important;
+    border-radius: 6px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-.Titu1{
-     color: #0b4f6c;
+
+.nav-item:hover .nav-link,
+.navbar-brand:hover {
+    background-color: #3d84a3;
+    color: #F9F7F7 !important;
+}
+
+/* Títulos unificados */
+.Titu1,
+.Titu2,
+.Titu3,
+.Titu4 {
+    color: #0b4f6c;
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 30px 0 15px 0;
 }
-.Titu2{
-     color: #0b4f6c;
-    text-align: center;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 30px 0 15px 0;
-}
-.Titu3{
-     color: #0b4f6c;
-    text-align: center;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 30px 0 15px 0;
-}
-.Titu4{
-     color: #0b4f6c;
-    text-align: center;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 30px 0 15px 0;
-}
-.info1{
+
+/* Tarjetas de información */
+.info1 {
     background: linear-gradient(to right, #61A5C2, #014F86);
     color: #F9F7F7;
     max-width: 900px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 30px auto;
     padding: 20px 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 1.6;
     text-align: center;
+}
+
+/* Quita los puntos negros de la lista de contactos */
+.lista-contacto {
+    list-style: none;
+}
+
+/* Contenedor y botones de redes sociales */
+.redes1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.enlaces-redes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn-red {
+    background: linear-gradient(to right, #61A5C2, #014F86);
+    color: #F9F7F7;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.btn-red:hover {
+    transform: translateY(-3px);
+    color: #F9F7F7;
 }
