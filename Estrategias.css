@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box; /*Hace que el padding y el borde cuenten dentro del ancho de cada elemento.*/
+}
 .navbar {
     background: linear-gradient(to right, #61A5C2, #014F86);
 }
@@ -92,13 +95,6 @@ body {
     transform: translateY(-5px);
 }
 
-.estrategia-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 3px solid #F9F7F7;
-}
 
 .etiqueta {
     margin: 0;
