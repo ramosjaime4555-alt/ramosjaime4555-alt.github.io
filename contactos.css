@@ -53,12 +53,12 @@ body {
     text-align: center;
 }
 
-/* Quita los puntos negros de la lista de contactos */
+
 .lista-contacto {
     list-style: none;
 }
 
-/* Contenedor y botones de redes sociales */
+
 .redes1 {
     text-align: center;
     margin-bottom: 30px;
