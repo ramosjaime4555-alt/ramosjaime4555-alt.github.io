@@ -95,13 +95,6 @@ body {
     transform: translateY(-5px);
 }
 
-.estrategia-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 3px solid #F9F7F7;
-}
 
 .etiqueta {
     margin: 0;
